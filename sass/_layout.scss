@@ -20,10 +20,13 @@
 .sidebar {
     background-color: var(--color-grey-dark-1);
     flex: 0 0 18%; //grow shrink flex-basis
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .hotel-view {
     background-color: #fff;
     background-color: orange;
-
+    height: 80rem;
     flex: 1; //grow as much as can
 }
